@@ -1,0 +1,108 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+* {
+    font-family: Roboto;
+    box-sizing: border-box;
+}
+body, html {
+    height: 100vh;
+    background-color: white;
+    margin: 0;
+}
+header {
+    background-size: cover;
+    height: 240px;
+    padding-top: 1px;
+    background-image: url('../images/header-image.jpg');
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.nav-links {
+    color:white;
+    text-transform: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+.icon {
+    padding-left: 25px;
+    background: url(https://static.thenounproject.com/png/101791-200.png) no-repeat left;
+    background-color: rgba(255,255,255,0.7);
+    background-size: 20px;
+    border: none;
+    font-size: 1.5em;
+    border-radius: 5px;
+    padding: 0 70px;
+}
+.ubicacion {
+    padding: 20px 0;
+}
+.fa-bars, .fa-magnifying-glass{
+    color: white;
+    font-size: 1.5em;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 30px;
+    text-align: center;
+    padding: 10px
+}
+.grid-item img {
+    border-radius: 10px;
+}
+.profile-image{
+    border-radius: 50px;
+}
+.bloque-texto {
+    display:flex;
+    width: 33%;
+}
+.bloque-artista {
+    padding: 20px;
+    position: relative;
+    top: -57px;
+    background-color: white;
+    margin-left: 21px;
+    text-align: center;
+}
+.btn-follow {
+    width: 100%;
+    background-color: #0066ff;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 0;
+}
+.btn-email {
+    width: 100%;
+    background-color: white;
+    color: blue;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 0;
+}
+/* MEDIA QUERIES */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+  
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+  
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {} 
+  
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
